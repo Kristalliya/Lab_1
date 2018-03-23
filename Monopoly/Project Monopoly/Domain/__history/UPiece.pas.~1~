@@ -1,0 +1,10 @@
+unit UPiece;
+
+interface
+type
+  TPiece=class
+
+  end;
+implementation
+
+end.

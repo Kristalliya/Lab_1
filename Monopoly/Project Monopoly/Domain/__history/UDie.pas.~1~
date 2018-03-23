@@ -1,0 +1,10 @@
+unit UDie;
+
+interface
+type
+  TDie=class
+
+  end;
+implementation
+
+end.

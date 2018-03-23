@@ -1,0 +1,47 @@
+unit UMonopolyGame;
+
+interface
+uses UBoard,UDie,UPlayer,SysUtils,Generics.Collections,Generics.Defaults;
+type
+  TMonopolyGame=class
+    const
+    ROUNDS_TOTAL=20;
+    PLAYERS_TOTAL=2;
+  private
+    //Players:TList(ArrayList(PLAYER_TOTAL));
+    board:TBoard;
+    dice:TDie;
+  public
+    procedure MonopolyGame;
+    procedure playGame;
+    function getPlayers:TList;
+    procedure pleyRound;
+  end;
+implementation
+
+{ TMonopolyGame }
+
+function TMonopolyGame.getPlayers: TList;
+begin
+
+end;
+
+procedure TMonopolyGame.MonopolyGame;
+var p:TPlayer;
+begin
+  p:=TPlayer.Create;
+  p.Player('Лошадь',dice,board);
+
+end;
+
+procedure TMonopolyGame.playGame;
+begin
+
+end;
+
+procedure TMonopolyGame.pleyRound;
+begin
+
+end;
+
+end.

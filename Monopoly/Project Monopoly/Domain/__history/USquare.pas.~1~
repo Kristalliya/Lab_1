@@ -1,0 +1,10 @@
+unit USquare;
+
+interface
+type
+  TSquare=class
+
+  end;
+implementation
+
+end.

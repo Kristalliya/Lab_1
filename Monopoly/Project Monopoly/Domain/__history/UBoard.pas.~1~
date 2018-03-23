@@ -1,0 +1,10 @@
+unit UBoard;
+
+interface
+type
+  TBoard=class
+
+  end;
+implementation
+
+end.

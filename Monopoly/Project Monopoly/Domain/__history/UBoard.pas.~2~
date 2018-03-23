@@ -1,0 +1,83 @@
+unit UBoard;
+
+interface
+
+uses USquare;
+
+type
+  TBoard = class
+  private
+  // SIZE: Integer;
+    const
+    SIZE = 40;
+    /// //////////
+  public
+    procedure Board;
+    function getSquare(star: TSquare; distance: Integer): TSquare;
+    function getStartSquare: TSquare;
+    procedure buildSquares;
+    procedure build(i: Integer);
+    procedure linkSquares;
+    procedure link(i: Integer);
+  end;
+
+implementation
+
+{ TBoard }
+
+procedure TBoard.Board;
+begin
+  buildSquares;
+  linkSquares;
+end;
+
+procedure TBoard.build(i: Integer);
+var
+  s: TSquare;
+begin
+  s := TSquare.Create;
+  s.Square('Square' { +i } , i - 1);
+  /// /////////
+  /// //////////squares.add(s);
+end;
+
+procedure TBoard.buildSquares;
+var
+  i: Integer;
+begin
+  for i := 1 to SIZE do
+    link(i);
+end;
+
+function TBoard.getSquare(star: TSquare; distance: Integer): TSquare;
+var
+  endIndex: Integer;
+begin
+  /// /////////////
+end;
+
+function TBoard.getStartSquare: TSquare;
+begin
+  /// //////result:=
+end;
+
+procedure TBoard.link(i: Integer);
+var
+  current: TSquare;
+  next: TSquare;
+begin
+  current.getNextSquare(i + 1);
+  current.setNextSquare(next);
+end;
+
+procedure TBoard.linkSquares;
+var
+  i: Integer;
+begin
+  for i := 0 to SIZE - 1 do
+    link(i);
+  /// ////////////////////////
+  /// last.setNextSquare(first);
+end;
+
+end.
