@@ -1,0 +1,12 @@
+unit UPayment;
+
+interface
+
+type
+  TPayment = class
+
+  end;
+
+implementation
+
+end.

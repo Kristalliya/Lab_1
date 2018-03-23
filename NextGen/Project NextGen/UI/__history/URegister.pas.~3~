@@ -1,0 +1,53 @@
+unit URegister;
+
+interface
+
+uses UProductCatalog, USale, ItemID, Money;
+
+type
+  TRegister = class
+  private
+    catalog: TProductCatalog;
+    currentSale: TSale;
+  public
+    procedure Register(catalog: UProductCatalog);
+    procedure endSale;
+    procedure enterItem(id: ItemID; quantity: integer);
+    procedure makeNewSale;
+    procedure makePayment(cashTendered: TMoney);
+  end;
+
+implementation
+
+{ TRegister }
+
+procedure TRegister.endSale;
+begin
+  currentSale.becomeComplete;
+end;
+
+procedure TRegister.enterItem(id: ItemID; quantity: integer);
+begin
+  /////////////////////////////////
+  ////////////////////////////////
+  //ProductDescription.desc:=catalog.getProductDescription(id);
+  //currentSale.makeLineItem(desc,quantity);
+end;
+
+procedure TRegister.makeNewSale;
+begin
+  /////////////////////////////////////////////
+  //////////////////////////////////////currentSale:=new Sale;
+end;
+
+procedure TRegister.makePayment(cashTendered: TMoney);
+begin
+  currentSale.makePayment(cashTendered);
+end;
+
+procedure TRegister.Register(catalog: UProductCatalog);
+begin
+  self.catalog:=catalog;
+end;
+
+end.

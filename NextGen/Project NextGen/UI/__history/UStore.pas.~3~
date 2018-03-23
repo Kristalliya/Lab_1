@@ -1,0 +1,24 @@
+unit UStore;
+
+interface
+
+uses URegister;
+
+type
+  TStore = class
+  private
+    // catalog:TProductCatalog:=ProductCatalog.create;
+    // register:Tregister:=Register(catalog).Create;
+    function getRegister: TRegister;
+  end;
+
+implementation
+
+{ TStore }
+
+function TStore.getRegister: TRegister;
+begin
+  //////////////result:=register;
+end;
+
+end.

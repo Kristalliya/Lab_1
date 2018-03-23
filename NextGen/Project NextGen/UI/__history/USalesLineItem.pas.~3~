@@ -1,0 +1,32 @@
+unit USalesLineItem;
+
+interface
+
+uses UProductDescription, Money;
+
+type
+  TSalesLineItem = class
+  private
+    quantity: integer;
+    description: TProductDescription;
+    procedure SalesLineItem(desc: UProductDescription; quantity: integer);
+    function getSutotal: TMoney;
+  end;
+
+implementation
+
+{ TSalesLineItem }
+
+function TSalesLineItem.getSutotal: TMoney;
+begin
+  result := description.getPrice * quantity;
+end;
+
+procedure TSalesLineItem.SalesLineItem(desc: UProductDescription;
+  quantity: integer);
+begin
+  self.description := desc;
+  self.quantity := quantity;
+end;
+
+end.

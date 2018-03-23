@@ -1,0 +1,40 @@
+unit UProductCatalog;
+
+interface
+
+uses Money, ItemID, UProductDescription;
+
+type
+  TProductCatalog = class
+  private
+    // descriptions:dictionary<ItemID,ProductDescriprion>
+  public
+    procedure ProductCatalog;
+    function getProductDescription(id: TItemID): TProductDescription;
+  end;
+
+implementation
+
+function TProductCatalog.getProductDescription(id: TItemID)
+  : TProductDescription;
+begin
+  result := descriptions.get(id);
+end;
+
+procedure TProductCatalog.ProductCatalog;
+var
+  id1, id2: TItemID;
+  price: TMoney;
+begin
+  id1 := 100;
+  id2 := 200;
+  price := 3;
+  ProductDescription.desk;
+  desc := ProductDescription(id1, price, " ");
+  descriptions.put(id1, desc);
+  desc := ProductDescription(id2, price, " ");
+  descriptions.put(id2, desc);
+
+end;
+
+end.

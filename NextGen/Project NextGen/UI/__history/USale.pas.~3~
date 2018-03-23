@@ -1,0 +1,58 @@
+unit USale;
+
+interface
+
+uses Money, UProductDescription, USalesLineItem, UPayment;
+
+type
+  TSale = class
+  private
+    Date: TDate;
+    payment: TPayment;
+  public
+    /// ///////////////List
+    function getBalance: TMoney;
+    procedure becomeComplete;
+    function isComplete: boolean;
+    procedure makeLineItem(desc: UProductDescription; quantity: integer);
+    function getTotal: TMoney;
+    procedure makePayment(cashTendered: TMoney);
+  end;
+
+implementation
+
+{ TSale }
+
+procedure TSale.becomeComplete;
+begin
+  isComplete := true;
+end;
+
+function TSale.getBalance: TMoney;
+begin
+  result := payment.getAmount - getTotal;
+end;
+
+function TSale.getTotal: TMoney;
+begin
+  /// ////////////////////////////////////////////////////////////////////////////
+  /// /////////////////////////////////////////////////////////////////////////////
+end;
+
+function TSale.isComplete: boolean;
+begin
+  result := isComplete;
+end;
+
+procedure TSale.makeLineItem(desc: UProductDescription; quantity: integer);
+begin
+  /// ////////////////////////////////////////////////////////////////////////////
+  /// /////////////////////////////////////////////////////////////////////////////
+end;
+
+procedure TSale.makePayment(cashTendered: Money);
+begin
+  payment := payment(cashTendered);
+end;
+
+end.
