@@ -20,8 +20,10 @@ type
     function getName: String;
   end;
 
+
 implementation
 
+uses Unit1;
 { TPlayer }
 
 constructor TPlayer.create(name: String; dice: TDie; board: TBoard);
@@ -29,7 +31,7 @@ begin
   self.name := name;
   self.dice := TList<TDie>.create;
   self.dice.add(dice);
-  // self.dice := dice;self.dice.add(dice);self.dice.add(dice);
+  //self.dice.add(dice);//self.dice.add(dice);self.dice.add(dice);
   self.board := board;
   piece := TPiece.create(board.getStartSquare);
 end;
@@ -53,8 +55,8 @@ begin
   for i := 0 to dice.count - 1 do
   begin
     dice.Items[i].roll;
-    rollTotal := rollTotal + dice.Items[i].getFaceValue;
-    /// /////self.dice
+    rollTotal := rollTotal + self.dice.Items[i].getFaceValue;/// /////self.dice
+    Form1.Label3.Caption:='Второму игроку выпало: '+IntToStr(rollTotal);///
   end;
   newLoc := board.getSquare(piece.getLocation, rollTotal);
   piece.setLocation(newLoc);
