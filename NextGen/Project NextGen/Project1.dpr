@@ -11,7 +11,8 @@ uses
   URegister in 'Domain\URegister.pas',
   UStore in 'Domain\UStore.pas',
   Money in 'src\Money.pas',
-  ItemID in 'src\ItemID.pas';
+  ItemID in 'src\ItemID.pas',
+  UConnect in 'src\UConnect.pas';
 
 {$R *.res}
 

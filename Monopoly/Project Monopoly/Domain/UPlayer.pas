@@ -28,6 +28,7 @@ constructor TPlayer.create(name: String; dice: TDie; board: TBoard);
 begin
   self.name := name;
   self.dice := TList<TDie>.create;
+  self.dice.add(dice);
   // self.dice := dice;self.dice.add(dice);self.dice.add(dice);
   self.board := board;
   piece := TPiece.create(board.getStartSquare);

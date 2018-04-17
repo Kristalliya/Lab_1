@@ -145,6 +145,10 @@
 					<Platform value="Win64">False</Platform>
 					<Platform value="Win32">True</Platform>
 				</Platforms>
+				<ModelSupport>False</ModelSupport>
+				<UnitTesting>
+					<TestProjectName>D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Test\Project1Tests.dproj</TestProjectName>
+				</UnitTesting>
 			</BorlandProject>
 			<ProjectFileVersion>12</ProjectFileVersion>
 		</ProjectExtensions>

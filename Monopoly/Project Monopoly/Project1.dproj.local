@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.575,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.082,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\USquare.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UPiece.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.432,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UMonopolyGame.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.169,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.377,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UPlayer.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.503,=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.861,C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.503,=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.861,C:\Users\user\Documents\RAD Studio\Projects\Unit1.dfm=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit1.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.924,C:\Users\user\Documents\RAD Studio\Projects\Project1.dproj=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Project1.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.721,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.367,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UPiece.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.468,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.082,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\USquare.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.981,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.402,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UBoard.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.169,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.521,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.144,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UDie.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.402,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UBoard.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.721,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
   </Transactions>
 </BorlandProject>
