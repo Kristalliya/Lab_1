@@ -16,6 +16,7 @@ type
     procedure enterItem(id: TItemID; quantity: integer);
     procedure makeNewSale;
     procedure makePayment(cashTendered: TMoney);
+    function getTotalSale:TMoney;
   end;
 
 implementation
@@ -39,6 +40,11 @@ begin
   desc := TProductDescription.create;
   desc := catalog.getProductDescription(id);
   currentSale.makeLineItem(desc, quantity);
+end;
+
+function TRegister.getTotalSale: TMoney;
+begin
+  result:=currentSale.getTotal;
 end;
 
 procedure TRegister.makeNewSale;
