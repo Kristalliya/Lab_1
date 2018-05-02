@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.958,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\URegister.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.384,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\USalesLineItem.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.607,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\src\UConnect.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.774,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.492,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.044,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\src\Money.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.840,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UPayment.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.009,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Project1.dproj=C:\Users\user\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.107,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\src\ItemID.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.445,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Domain\Unit1.dfm=C:\Users\user\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.169,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UProductCatalog.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.772,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.572,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UProductDescription.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.445,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Domain\Unit1.pas=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.738,=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.366,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\USale.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.153,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UStore.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.151,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.153,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.595,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.268,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.975,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.595,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.151,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.153,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.234,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.445,C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Domain\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.738,=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.445,C:\Users\user\Documents\RAD Studio\Projects\Unit1.dfm=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Domain\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.607,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\src\UConnect.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.009,C:\Users\user\Documents\RAD Studio\Projects\Project1.dproj=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.153,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UStore.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.492,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.044,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\src\Money.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.774,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.958,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\URegister.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.384,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\USalesLineItem.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.840,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UPayment.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.572,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UProductDescription.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.366,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\USale.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.772,=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.107,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\src\ItemID.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.169,D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\Unit2.pas=D:\Программы\Git\Documents\Lab_1\NextGen\Project NextGen\UI\UProductCatalog.pas</Transaction>
   </Transactions>
 </BorlandProject>
