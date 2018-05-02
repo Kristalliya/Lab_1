@@ -92,6 +92,11 @@
 			<DCCReference Include="Domain\UBoard.pas"/>
 			<DCCReference Include="Domain\UPlayer.pas"/>
 			<DCCReference Include="Domain\UMonopolyGame.pas"/>
+			<DCCReference Include="Domain\UCup.pas"/>
+			<DCCReference Include="UI\Unit2.pas">
+				<Form>Form2</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>

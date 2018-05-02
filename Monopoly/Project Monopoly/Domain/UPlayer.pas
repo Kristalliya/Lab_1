@@ -2,8 +2,7 @@ unit UPlayer;
 
 interface
 
-uses UPiece, UBoard, UDie, USquare, SysUtils, Generics.Collections,
-  Generics.Defaults;
+uses UPiece, UBoard, UDie, USquare, SysUtils, Generics.Collections,Generics.Defaults;
 
 type
   TPlayer = class
@@ -23,7 +22,7 @@ type
 
 implementation
 
-uses Unit1;
+uses Unit1,UCup;
 { TPlayer }
 
 constructor TPlayer.create(name: String; dice: TDie; board: TBoard);
@@ -52,12 +51,13 @@ var
   newLoc: TSquare;
 begin
   rollTotal := 0;
-  for i := 0 to dice.count - 1 do
+  {for i := 0 to dice.count - 1 do
   begin
     dice.Items[i].roll;
     rollTotal := rollTotal + self.dice.Items[i].getFaceValue;/// /////self.dice
-    Form1.Label3.Caption:='Второму игроку выпало: '+IntToStr(rollTotal);///
-  end;
+    //Form1.Label3.Caption:='Второму игроку выпало: '+IntToStr(rollTotal);///
+  end;}
+  //rollTotal:=TCup.getTotal(dice);   //почему не вызывает? где ошибка?
   newLoc := board.getSquare(piece.getLocation, rollTotal);
   piece.setLocation(newLoc);
 end;
