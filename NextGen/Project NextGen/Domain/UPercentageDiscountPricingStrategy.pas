@@ -7,18 +7,18 @@ uses UISalePricingStrategy, Money, USale;
 type
   TPercentageDiscountPricingStrategy = class(TISalePricingStrategy)
   private
-    percentage: real;
+    percentage: TMoney;   //real
   public
-    function getTotal(s: TSale): TMoney; override;
+    function getTotal(sale: TSale): TMoney; override;
   end;
 
 implementation
 
 { TPercentageDiscountPricingStrategy }
 
-function TPercentageDiscountPricingStrategy.getTotal(s: TSale): Money;
+function TPercentageDiscountPricingStrategy.getTotal(sale: TSale):TMoney; //TMoney;
 begin
-  result := { s.getPreDiscountTotal()* } percentage;
+  result := { sale.getPreDiscountTotal()* } percentage;
 end;
 
 end.

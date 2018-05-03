@@ -10,18 +10,18 @@ type
     discount: TMoney;
     threshold: TMoney;
   public
-    function getTotal(s: TSale): TMoney; override;
+    function getTotal(sale: TSale): TMoney; override;
   end;
 
 implementation
 
 { TAbsoluteDiscountPricingStrategy }
 
-function TAbsoluteDiscountPricingStrategy.getTotal(Sale): Money;
+function TAbsoluteDiscountPricingStrategy.getTotal(sale:TSale): TMoney;
 var
   pdt: TMoney;
 begin
-  {pdt := s.getPreDiscountTotal();}
+  {pdt := sale.getPreDiscountTotal();}
   if (pdt < threshold)
   then result := pdt
   else result := pdt - discount;
