@@ -14,14 +14,14 @@ uses
   ItemID in 'src\ItemID.pas',
   UConnect in 'src\UConnect.pas',
   UTaxLineItems in 'src\UTaxLineItems.pas',
-  UITaxCalculatorAdapter in 'Domain\UITaxCalculatorAdapter.pas',
-  UTaxMasterAdapter in 'Domain\UTaxMasterAdapter.pas',
-  UGoodAsGoldTaxProAdapter in 'Domain\UGoodAsGoldTaxProAdapter.pas',
   Unit2 in 'UI\Unit2.pas' {Form2},
   Unit3 in 'UI\Unit3.pas' {Form3},
   UAbsoluteDiscountPricingStrategy in 'Domain\Strategy\UAbsoluteDiscountPricingStrategy.pas',
   UISalePricingStrategy in 'Domain\Strategy\UISalePricingStrategy.pas',
-  UPercentDiscountPricingStrategy in 'Domain\Strategy\UPercentDiscountPricingStrategy.pas';
+  UPercentDiscountPricingStrategy in 'Domain\Strategy\UPercentDiscountPricingStrategy.pas',
+  UGoodAsGoldTaxProAdapter in 'Domain\Adapter\UGoodAsGoldTaxProAdapter.pas',
+  UITaxCalculatorAdapter in 'Domain\Adapter\UITaxCalculatorAdapter.pas',
+  UTaxMasterAdapter in 'Domain\Adapter\UTaxMasterAdapter.pas';
 
 {$R *.res}
 
