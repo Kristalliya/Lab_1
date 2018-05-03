@@ -1,4 +1,4 @@
-unit UPercentageDiscountPricingStrategy;
+unit UPercentDiscountPricingStrategy;
 
 interface
 

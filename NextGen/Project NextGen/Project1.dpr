@@ -19,9 +19,9 @@ uses
   UGoodAsGoldTaxProAdapter in 'Domain\UGoodAsGoldTaxProAdapter.pas',
   Unit2 in 'UI\Unit2.pas' {Form2},
   Unit3 in 'UI\Unit3.pas' {Form3},
-  UISalePricingStrategy in 'Domain\UISalePricingStrategy.pas',
-  UPercentageDiscountPricingStrategy in 'Domain\UPercentageDiscountPricingStrategy.pas',
-  UAbsoluteDiscountPricingStrategy in 'Domain\UAbsoluteDiscountPricingStrategy.pas';
+  UAbsoluteDiscountPricingStrategy in 'Domain\Strategy\UAbsoluteDiscountPricingStrategy.pas',
+  UISalePricingStrategy in 'Domain\Strategy\UISalePricingStrategy.pas',
+  UPercentDiscountPricingStrategy in 'Domain\Strategy\UPercentDiscountPricingStrategy.pas';
 
 {$R *.res}
 

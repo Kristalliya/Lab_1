@@ -107,9 +107,9 @@
 				<Form>Form3</Form>
 				<FormType>dfm</FormType>
 			</DCCReference>
-			<DCCReference Include="Domain\UISalePricingStrategy.pas"/>
-			<DCCReference Include="Domain\UPercentageDiscountPricingStrategy.pas"/>
-			<DCCReference Include="Domain\UAbsoluteDiscountPricingStrategy.pas"/>
+			<DCCReference Include="Domain\Strategy\UAbsoluteDiscountPricingStrategy.pas"/>
+			<DCCReference Include="Domain\Strategy\UISalePricingStrategy.pas"/>
+			<DCCReference Include="Domain\Strategy\UPercentDiscountPricingStrategy.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
