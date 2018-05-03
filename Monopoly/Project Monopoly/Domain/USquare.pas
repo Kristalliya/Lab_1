@@ -54,7 +54,7 @@ end;
 
 function TSquare.landedOn: TSquare;
 begin
-
+  //
 end;
 
 procedure TSquare.setNextSquare(s: TSquare);

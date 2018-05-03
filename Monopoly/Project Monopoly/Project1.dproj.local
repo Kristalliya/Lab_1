@@ -1,30 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.521,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.981,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.432,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UMonopolyGame.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.402,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UBoard.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.144,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UDie.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.924,C:\Users\user\Documents\RAD Studio\Projects\Project1.dproj=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Project1.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.735,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.082,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\USquare.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.377,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UPlayer.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.367,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UPiece.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.721,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.503,=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.735,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit2.dfm=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.861,C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.572,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UCup.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.861,C:\Users\user\Documents\RAD Studio\Projects\Unit1.dfm=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.134,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.169,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.861,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit1.pas=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.468,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.035,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.575,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.134,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.169,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.082,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\USquare.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.367,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UPiece.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.735,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.dfm=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.144,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UDie.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.861,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit1.dfm=C:\Users\user\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.924,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Project1.dproj=C:\Users\user\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.432,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UMonopolyGame.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UPlayer.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.503,=C:\Users\user\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.402,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UBoard.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.521,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.721,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.572,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\UCup.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.981,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.735,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit2.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\UI\Unit2.pas</Transaction>
+    <Transaction>2018.05.03 20:21:28.010,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit3.pas</Transaction>
+    <Transaction>2018.05.03 20:21:30.675,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit4.pas</Transaction>
+    <Transaction>2018.05.03 20:21:34.296,=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit5.pas</Transaction>
+    <Transaction>2018.05.03 20:22:34.966,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\Polymorphism\URegularSquare.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit3.pas</Transaction>
+    <Transaction>2018.05.03 20:23:05.898,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\Polymorphism\UGoSquare.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit4.pas</Transaction>
+    <Transaction>2018.05.03 20:23:43.775,D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Domain\Polymorphism\UIncomeTaxSquare.pas=D:\Программы\Git\Documents\Lab_1\Monopoly\Project Monopoly\Unit5.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Domain"/>
+    <File Path="Domain\Polymorphism"/>
+    <File Path="Domain\Polymorphism\URegularSquare.pas"/>
+    <File Path="Domain\Polymorphism\UGoSquare.pas"/>
+    <File Path="Domain\Polymorphism\UIncomeTaxSquare.pas"/>
     <File Path="Domain\UBoard.pas"/>
     <File Path="Domain\UCup.pas"/>
     <File Path="Domain\UDie.pas"/>
