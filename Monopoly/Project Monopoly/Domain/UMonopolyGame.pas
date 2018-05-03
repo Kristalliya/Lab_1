@@ -5,7 +5,13 @@ interface
 uses UBoard, UDie, UPlayer, SysUtils, Generics.Collections, Generics.Defaults;
 
 type
-  TMonopolyGame = class
+  IMonopolyGame = class
+    procedure playGame;virtual;abstract;
+    function getPlayers: TList<TPlayer>;virtual;abstract;
+    procedure playRound;virtual;abstract;
+  end;
+
+  TMonopolyGame = class(IMonopolyGame)
   const
     ROUNDS_TOTAL = 20;
     PLAYERS_TOTAL = 2;
@@ -16,9 +22,9 @@ type
   published
     constructor create;
   public
-    procedure playGame;
-    function getPlayers: TList<TPlayer>;
-    procedure playRound;
+    procedure playGame;override;
+    function getPlayers: TList<TPlayer>;override;
+    procedure playRound;override;
   end;
 
 implementation

@@ -5,14 +5,19 @@ interface
 uses USquare;
 
 type
-  TPiece = class
+  IPiece = class
+    function getLocation: TSquare;virtual;abstract;
+    procedure setLocation(location: TSquare);virtual;abstract;
+  end;
+
+  TPiece = class(IPiece)
   private
     location: TSquare;
   published
     constructor create(location: TSquare);
   public
-    function getLocation: TSquare;
-    procedure setLocation(location: TSquare);
+    function getLocation: TSquare;override;
+    procedure setLocation(location: TSquare);override;
   end;
 
 implementation

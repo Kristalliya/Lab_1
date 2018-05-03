@@ -5,7 +5,16 @@ interface
 uses USquare, Classes, SysUtils, Generics.Collections, Generics.Defaults;
 
 type
-  TBoard = class
+  IBoard = class
+    function getSquare(start: TSquare; distance: Integer): TSquare;virtual;abstract;
+    function getStartSquare: TSquare;virtual;abstract;
+    procedure buildSquares;virtual;abstract;
+    procedure build(i: Integer);virtual;abstract;
+    procedure linkSquares;virtual;abstract;
+    procedure link(i: Integer);virtual;abstract;
+  end;
+
+  TBoard = class(IBoard)
   const
     SIZE = 40;
   private
@@ -13,12 +22,12 @@ type
   published
     constructor create;
   public
-    function getSquare(start: TSquare; distance: Integer): TSquare;
-    function getStartSquare: TSquare;
-    procedure buildSquares;
-    procedure build(i: Integer);
-    procedure linkSquares;
-    procedure link(i: Integer);
+    function getSquare(start: TSquare; distance: Integer): TSquare;override;
+    function getStartSquare: TSquare;override;
+    procedure buildSquares; override;
+    procedure build(i: Integer);override;
+    procedure linkSquares; override;
+    procedure link(i: Integer);override;
   end;
 
 implementation

@@ -5,9 +5,13 @@ interface
 uses UDie,SysUtils, Generics.Collections,Generics.Defaults;
 
 type
-  TCup = class
+  ICup = class
+    function getTotal(var dice: TList<TDie>): integer;virtual;abstract;
+  end;
+
+  TCup = class(ICup)
   public
-    function getTotal(var dice:TList<TDie>): integer;
+    function getTotal(var dice: TList<TDie>): integer;override;
   end;
 
 implementation

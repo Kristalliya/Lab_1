@@ -5,7 +5,13 @@ interface
 uses UPiece, UBoard, UDie, USquare, SysUtils, Generics.Collections,Generics.Defaults;
 
 type
-  TPlayer = class
+  IPlayer = class
+    procedure takeTurn;virtual;abstract;
+    function getLocation: TSquare;virtual;abstract;
+    function getName: string;virtual;abstract;
+  end;
+
+  TPlayer = class(IPlayer)
   private
     name: String;
     piece: TPiece;
@@ -14,11 +20,10 @@ type
   published
     constructor create(name: String; dice: TDie; board: TBoard);
   public
-    procedure takeTurn;
-    function getLocation: TSquare;
-    function getName: String;
+    procedure takeTurn;override;
+    function getLocation: TSquare;override;
+    function getName: String;override;
   end;
-
 
 implementation
 
