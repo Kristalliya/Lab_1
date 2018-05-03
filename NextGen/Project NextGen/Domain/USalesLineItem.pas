@@ -5,13 +5,18 @@ interface
 uses UProductDescription, Money;
 
 type
-  TSalesLineItem = class
+  ISalesLineItem = class
+    procedure SalesLineItem(desc: TProductDescription; quantity: integer);virtual;abstract;
+    function getSubtotal: TMoney;virtual;abstract;
+  end;
+
+  TSalesLineItem = class(ISalesLineItem)
   private
     quantity: integer;
     description: TProductDescription;
   public
-    procedure SalesLineItem(desc: TProductDescription; quantity: integer);
-    function getSubtotal: TMoney;
+    procedure SalesLineItem(desc: TProductDescription; quantity: integer);override;
+    function getSubtotal: TMoney;override;
   end;
 
 implementation

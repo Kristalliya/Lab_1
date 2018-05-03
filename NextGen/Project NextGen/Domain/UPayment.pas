@@ -6,12 +6,17 @@ uses
   Money;
 
 type
-  TPayment = class
+  IPayment = class
+    procedure Payment(cashTendered: TMoney);virtual;abstract;
+    function getAmount: TMoney;virtual;abstract;
+  end;
+
+  TPayment = class(IPayment)
   private
     amount: TMoney;
   public
-    procedure Payment(cashTendered: TMoney);
-    function getAmount: TMoney;
+    procedure Payment(cashTendered: TMoney);override;
+    function getAmount: TMoney;override;
   end;
 
 implementation

@@ -5,14 +5,18 @@ interface
 uses URegister, UProductCatalog;
 
 type
-  TStore = class
+  IStore = class
+    function getRegister: TRegister;virtual;abstract;
+  end;
+
+  TStore = class(IStore)
   private
     catalog: TProductCatalog; // :=ProductCatalog.create;
     register1: TRegister; // :=Register(catalog).Create;
   published
     constructor create;
   public
-    function getRegister: TRegister;
+    function getRegister: TRegister;override;
   end;
 
 implementation

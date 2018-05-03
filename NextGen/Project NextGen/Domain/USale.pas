@@ -6,7 +6,16 @@ uses Money, UProductDescription, USalesLineItem, UPayment,
   SysUtils, Generics.Collections, Generics.Defaults;
 
 type
-  TSale = class
+  ISale = class
+    function getBalance: TMoney;virtual;abstract;
+    procedure becomeComplete;virtual;abstract;
+    function isComplete: boolean;virtual;abstract;
+    procedure makeLineItem(desc: TProductDescription; quantity: integer);virtual;abstract;
+    function getTotal: TMoney;virtual;abstract;
+    procedure makePayment(cashTendered: TMoney);virtual;abstract;
+  end;
+
+  TSale = class(ISale)
   private
     lineItems: TList<TSalesLineItem>;
     Date: TDate;
@@ -15,12 +24,12 @@ type
   published
     constructor create;
   public
-    function getBalance: TMoney;
-    procedure becomeComplete;
-    function isComplete: boolean;
-    procedure makeLineItem(desc: TProductDescription; quantity: integer);
-    function getTotal: TMoney;
-    procedure makePayment(cashTendered: TMoney);
+    function getBalance: TMoney;override;
+    procedure becomeComplete;override;
+    function isComplete: boolean;override;
+    procedure makeLineItem(desc: TProductDescription; quantity: integer);override;
+    function getTotal: TMoney;override;
+    procedure makePayment(cashTendered: TMoney);override;
   end;
 
 implementation

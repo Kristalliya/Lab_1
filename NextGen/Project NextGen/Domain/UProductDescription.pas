@@ -5,17 +5,25 @@ interface
 uses ItemID, Money;
 
 type
-  TProductDescription = class
+  IProductDescription = class
+    procedure ProductDescription(id: TItemID; price: Tmoney;
+      description: string);virtual;abstract;
+    function getItemID: TItemID;virtual;abstract;
+    function getPrice: Tmoney;virtual;abstract;
+    function getDescription: string;virtual;abstract;
+  end;
+
+  TProductDescription = class(IProductDescription)
   private
     id: TItemID;
     price: Tmoney;
     description: String;
   public
     procedure ProductDescription(id: TItemID; price: Tmoney;
-      description: string);
-    function getItemID: TItemID;
-    function getPrice: Tmoney;
-    function getDescription: string;
+      description: string);override;
+    function getItemID: TItemID;override;
+    function getPrice: Tmoney;override;
+    function getDescription: string;override;
   end;
 
 implementation

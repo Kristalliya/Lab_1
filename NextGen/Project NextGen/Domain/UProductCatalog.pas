@@ -6,14 +6,19 @@ uses Money, ItemID, UProductDescription, SysUtils, Generics.Collections,
   Generics.Defaults;
 
 type
-  TProductCatalog = class
+  IProductCatalog = class
+    procedure ProductCatalog;virtual;abstract;
+    function getProductDescription(id: TItemID): TProductDescription;virtual;abstract;
+  end;
+
+  TProductCatalog = class(IProductCatalog)
   private
     descriptions: Tdictionary<TItemID, TProductDescription>;
   published
     constructor create;
   public
-    procedure ProductCatalog;
-    function getProductDescription(id: TItemID): TProductDescription;
+    procedure ProductCatalog;override;
+    function getProductDescription(id: TItemID): TProductDescription;override;
   end;
 
 implementation
