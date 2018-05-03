@@ -25,6 +25,7 @@ type
 
 implementation
 
+uses UITaxCalculatorAdapter;
 { TSale }
 
 procedure TSale.becomeComplete;
@@ -48,6 +49,7 @@ function TSale.getTotal: TMoney;
 var
   total, subtotal: TMoney;
   SalesLineItem: TSalesLineItem;
+  itax:TITaxCalculatorAdapter;
 begin
   total := 0;
   subtotal := 0;
@@ -56,7 +58,7 @@ begin
     subtotal := SalesLineItem.getSubtotal;
     total := total + subtotal;
   end;
-  result := total;
+  result := total{-itax.getTaxes(};
 end;
 
 function TSale.isComplete: boolean;
