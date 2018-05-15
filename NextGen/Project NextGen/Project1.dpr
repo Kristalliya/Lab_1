@@ -30,7 +30,8 @@ uses
   UServicesFactory in 'Domain\UServicesFactory.pas',
   UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas',
   UPricingStrategyFactory in 'Domain\UPricingStrategyFactory.pas',
-  UCompositePricingStrategy in 'Domain\Composite\UCompositePricingStrategy.pas';
+  UCompositePricingStrategy in 'Domain\Composite\UCompositePricingStrategy.pas',
+  UCompositeBestForCustomer in 'Domain\Composite\UCompositeBestForCustomer.pas';
 
 {$R *.res}
 
