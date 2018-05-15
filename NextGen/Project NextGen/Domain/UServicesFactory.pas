@@ -8,6 +8,7 @@ SysUtils, Generics.Collections, Generics.Defaults;
 type
   TServicesFactory = class
   private
+  instance:TServicesFactory;
   accountingAdapter : TIAccountingAdapter;
   inventoruAdapter:TIInventoryAdapter;
   taxCalculatorAdapter:TITaxCalculatorAdapter;
@@ -15,6 +16,7 @@ type
     function getAccountingAdapter():TIAccountingAdapter;
     function getInventoryAdapter():TIInventoryAdapter;
     function getTaxCalculatorAdapter():TITaxCalculatorAdapter;
+    function getInstance():TServicesFactory;//static;
   end;
 
 implementation
@@ -30,6 +32,13 @@ begin
     taxCalculatorAdapter := TITaxCalculatorAdapter.ClassNameIs(name);
   end;
   result:=taxCalculatorAdapter;
+end;
+
+function TServicesFactory.getInstance: TServicesFactory;
+begin
+  if instance=false then
+    instance:=TServicesFactory.Create;
+  result:=instance;
 end;
 
 function TServicesFactory.getInventoryAdapter: TIInventoryAdapter;
