@@ -12,7 +12,6 @@ uses
   UStore in 'Domain\UStore.pas',
   Money in 'src\Money.pas',
   ItemID in 'src\ItemID.pas',
-  UConnect in 'src\UConnect.pas',
   UTaxLineItems in 'src\UTaxLineItems.pas',
   Unit2 in 'UI\Unit2.pas' {Form2},
   Unit3 in 'UI\Unit3.pas' {Form3},
@@ -21,7 +20,9 @@ uses
   UPercentDiscountPricingStrategy in 'Domain\Strategy\UPercentDiscountPricingStrategy.pas',
   UGoodAsGoldTaxProAdapter in 'Domain\Adapter\UGoodAsGoldTaxProAdapter.pas',
   UITaxCalculatorAdapter in 'Domain\Adapter\UITaxCalculatorAdapter.pas',
-  UTaxMasterAdapter in 'Domain\Adapter\UTaxMasterAdapter.pas';
+  UTaxMasterAdapter in 'Domain\Adapter\UTaxMasterAdapter.pas',
+  UPersistentStorage in 'src\UPersistentStorage.pas',
+  UMyADOConnection in 'src\UMyADOConnection.pas';
 
 {$R *.res}
 

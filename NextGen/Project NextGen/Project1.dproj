@@ -94,7 +94,6 @@
 			<DCCReference Include="Domain\UStore.pas"/>
 			<DCCReference Include="src\Money.pas"/>
 			<DCCReference Include="src\ItemID.pas"/>
-			<DCCReference Include="src\UConnect.pas"/>
 			<DCCReference Include="src\UTaxLineItems.pas"/>
 			<DCCReference Include="UI\Unit2.pas">
 				<Form>Form2</Form>
@@ -110,6 +109,8 @@
 			<DCCReference Include="Domain\Adapter\UGoodAsGoldTaxProAdapter.pas"/>
 			<DCCReference Include="Domain\Adapter\UITaxCalculatorAdapter.pas"/>
 			<DCCReference Include="Domain\Adapter\UTaxMasterAdapter.pas"/>
+			<DCCReference Include="src\UPersistentStorage.pas"/>
+			<DCCReference Include="src\UMyADOConnection.pas"/>
 			<BuildConfiguration Include="Release">
 				<Key>Cfg_2</Key>
 				<CfgParent>Base</CfgParent>
