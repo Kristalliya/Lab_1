@@ -28,7 +28,8 @@ uses
   UGreatNorthernAccountingAdapter in 'Domain\Adapter\UGreatNorthernAccountingAdapter.pas',
   UICreditAuthorizationServiceAdapter in 'Domain\Adapter\UICreditAuthorizationServiceAdapter.pas',
   UServicesFactory in 'Domain\UServicesFactory.pas',
-  UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas';
+  UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas',
+  UPricingStrategyFactory in 'Domain\UPricingStrategyFactory.pas';
 
 {$R *.res}
 
