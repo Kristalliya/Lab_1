@@ -31,7 +31,8 @@ uses
   UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas',
   UPricingStrategyFactory in 'Domain\UPricingStrategyFactory.pas',
   UCompositePricingStrategy in 'Domain\Composite\UCompositePricingStrategy.pas',
-  UCompositeBestForCustomer in 'Domain\Composite\UCompositeBestForCustomer.pas';
+  UCompositeBestForCustomer in 'Domain\Composite\UCompositeBestForCustomer.pas',
+  UCompositeBestForStore in 'Domain\Composite\UCompositeBestForStore.pas';
 
 {$R *.res}
 
