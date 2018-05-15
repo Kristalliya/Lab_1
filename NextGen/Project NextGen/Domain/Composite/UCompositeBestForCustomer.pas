@@ -15,8 +15,9 @@ implementation
 { TCompositeBestForCustomer }
 
 function TCompositeBestForCustomer.getTotal(sale: TSale): TMoney;
+var lowestTotal:TMoney;        //стр 478 доделать
 begin
-  {lowestTotal:=integer.max;
+ { lowestTotal:=integer.max;
   for ISalePricingStrategy strat in pricingStrategies
   begin
     total := strat.getTotal(sale);
