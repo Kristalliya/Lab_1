@@ -23,10 +23,12 @@ uses
   UTaxMasterAdapter in 'Domain\Adapter\UTaxMasterAdapter.pas',
   UPersistentStorage in 'src\UPersistentStorage.pas',
   UMyADOConnection in 'src\UMyADOConnection.pas',
-  UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas',
+  UIInventoryAdapter in 'Domain\Adapter\UIInventoryAdapter.pas',
   USAPAccountingAdapter in 'Domain\Adapter\USAPAccountingAdapter.pas',
   UGreatNorthernAccountingAdapter in 'Domain\Adapter\UGreatNorthernAccountingAdapter.pas',
-  UICreditAuthorizationServiceAdapter in 'Domain\Adapter\UICreditAuthorizationServiceAdapter.pas';
+  UICreditAuthorizationServiceAdapter in 'Domain\Adapter\UICreditAuthorizationServiceAdapter.pas',
+  UServicesFactory in 'Domain\UServicesFactory.pas',
+  UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas';
 
 {$R *.res}
 
