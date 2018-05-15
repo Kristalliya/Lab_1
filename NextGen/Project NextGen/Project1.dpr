@@ -22,7 +22,11 @@ uses
   UITaxCalculatorAdapter in 'Domain\Adapter\UITaxCalculatorAdapter.pas',
   UTaxMasterAdapter in 'Domain\Adapter\UTaxMasterAdapter.pas',
   UPersistentStorage in 'src\UPersistentStorage.pas',
-  UMyADOConnection in 'src\UMyADOConnection.pas';
+  UMyADOConnection in 'src\UMyADOConnection.pas',
+  UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas',
+  USAPAccountingAdapter in 'Domain\Adapter\USAPAccountingAdapter.pas',
+  UGreatNorthernAccountingAdapter in 'Domain\Adapter\UGreatNorthernAccountingAdapter.pas',
+  UICreditAuthorizationServiceAdapter in 'Domain\Adapter\UICreditAuthorizationServiceAdapter.pas';
 
 {$R *.res}
 
