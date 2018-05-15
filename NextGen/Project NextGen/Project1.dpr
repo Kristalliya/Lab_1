@@ -29,7 +29,8 @@ uses
   UICreditAuthorizationServiceAdapter in 'Domain\Adapter\UICreditAuthorizationServiceAdapter.pas',
   UServicesFactory in 'Domain\UServicesFactory.pas',
   UIAccountingAdapter in 'Domain\Adapter\UIAccountingAdapter.pas',
-  UPricingStrategyFactory in 'Domain\UPricingStrategyFactory.pas';
+  UPricingStrategyFactory in 'Domain\UPricingStrategyFactory.pas',
+  UCompositePricingStrategy in 'Domain\Composite\UCompositePricingStrategy.pas';
 
 {$R *.res}
 

@@ -26,17 +26,17 @@ end;
 function TPricingStrategyFactory.getSalePricingStrategy: TISalePricingStrategy;
 var Name:string;
 begin
-  if SalePricingStrategy=false then
+  {if SalePricingStrategy=nil then
   begin
     Name:=SalePricingStrategy.ClassName;
     SalePricingStrategy := TISalePricingStrategy.ClassNameIs(name);
-  end;
-  result:=TISalePricingStrategy;
+  end;}
+  result:=SalePricingStrategy;
 end;
 
 function TPricingStrategyFactory.getSeniorPricingStrategy: TISalePricingStrategy;
 begin
-
+  //
 end;
 
 end.

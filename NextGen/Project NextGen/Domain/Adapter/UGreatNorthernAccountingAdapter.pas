@@ -13,4 +13,17 @@ type
 
 implementation
 
+{ TGreatNorthernAccountingAdapter }
+
+procedure TGreatNorthernAccountingAdapter.postReceivable(
+  CreditPayment: TPayment);
+begin
+  //
+end;
+
+procedure TGreatNorthernAccountingAdapter.postSale(Sale: TSale);
+begin
+  //
+end;
+
 end.

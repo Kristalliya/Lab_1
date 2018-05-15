@@ -26,17 +26,12 @@ implementation
 function TServicesFactory.getAccountingAdapter: TIAccountingAdapter;
 var Name:string;
 begin
-  if taxCalculatorAdapter=false then
-  begin
-    Name:=taxCalculatorAdapter.ClassName;
-    taxCalculatorAdapter := TITaxCalculatorAdapter.ClassNameIs(name);
-  end;
-  result:=taxCalculatorAdapter;
+  //
 end;
 
 function TServicesFactory.getInstance: TServicesFactory;
 begin
-  if instance=false then
+  if instance=nil then
     instance:=TServicesFactory.Create;
   result:=instance;
 end;
@@ -48,7 +43,12 @@ end;
 
 function TServicesFactory.getTaxCalculatorAdapter: TITaxCalculatorAdapter;
 begin
-  //
+   {if taxCalculatorAdapter=nil then
+  begin
+    Name:=taxCalculatorAdapter.ClassName;
+    taxCalculatorAdapter := TITaxCalculatorAdapter.;
+  end;  }
+  result:=taxCalculatorAdapter;
 end;
 
 end.

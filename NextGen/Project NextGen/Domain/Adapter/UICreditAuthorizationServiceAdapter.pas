@@ -2,12 +2,12 @@ unit UICreditAuthorizationServiceAdapter;
 
 interface
 
-uses UPayment;
+uses UPayment,ItemID;
 
 type
   TICreditAuthorizationServiceAdapter = class
   public
-    procedure requestApproval(CreditPayment: TPayment; TerminallD, MerchantID);
+    procedure requestApproval(CreditPayment: TPayment; TerminallD, MerchantID:TItemID);
   end;
 
 implementation
@@ -15,8 +15,8 @@ implementation
 { TICreditAuthorizationServiceAdapter }
 
 procedure TICreditAuthorizationServiceAdapter.requestApproval
-  (CreditPayment: TPayment; TerminallD, MerchantID);
-begin
+  (CreditPayment: TPayment; TerminallD, MerchantID:TItemID);
+begin             //////TerminallD, MerchantID:TItemID
   //
 end;
 
